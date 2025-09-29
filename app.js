@@ -3,14 +3,14 @@ const morgan = require('morgan');
 const mongoose = require('mongoose');
 const { result } = require('lodash');
 const blogRoutes = require('./routes/blogRoutes');
-
+require('dotenv').config();
 // express app
 const app = express();
 
 // connect to mongodb
-const dbURI = "mongodb+srv://emirsara-dev:O1M9fihEMxnxSWpb@nodetutorial.jciypx6.mongodb.net/nodetutorial?retryWrites=true&w=majority&appName=nodetutorial";
+const dbURI = process.env.DB_URI;
 mongoose.connect(dbURI)
-    .then((result) => app.listen(3000))
+    .then((result) => app.listen(process.env.PORT))
     .catch((err) => console.log(err));
 
 // register view engine
