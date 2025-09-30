@@ -29,8 +29,8 @@ public/ – static files (CSS, JS, images)
 app.js – main application file (server setup)
 package.json – dependencies, scripts, project metadata
 
-bash
-Copy code
+
+
 
 ## Installation
 
@@ -38,44 +38,55 @@ Copy code
 git clone https://github.com/emirsara-dev/My-node-blog-app.git
 cd My-node-blog-app
 npm install
+```
 Set up environment variables in .env:
 
-ini
-Copy code
+```bash
+
 PORT=3000
 DB_URI=your_database_connection_string
+```
 Start the server:
 
-bash
-Copy code
+```bash
 npm start
 # or for development with nodemon
 npm run dev
+```
+
 Open your browser at http://localhost:3000 to view the app.
 
-Usage
-Navigate to the home page to see all posts
 
-Create a new post using the "New Post" page
+Usage:
 
-Edit or delete posts using the respective buttons
+Navigate to the home page to see all posts.
 
-(Optional) Add authentication or admin access if implemented
+Create a new post using the "New Post" page.
+
+Edit or delete posts using the respective buttons.
+
+(Optional) Add authentication or admin access if implemented.
+
+
 
 Contributing
-Fork the repository
 
-Create a feature branch (git checkout -b feature-name)
+1. Fork the repository
 
-Commit your changes (git commit -m 'Add some feature')
+2. Create a feature branch (git checkout -b feature-name)
 
-Push to the branch (git push origin feature-name)
+3. Commit your changes (git commit -m 'Add some feature')
 
-Open a Pull Request
+4. Push to the branch (git push origin feature-name)
+
+5. Open a Pull Request
+
+
 
 License
+
 MIT License
 
 Contact
-Your Amirhossein Sarabadani — amirhosseinsarabadani@gmail.com
+Amirhossein Sarabadani — amirhosseinsarabadani@gmail.com
 Project Link: https://github.com/emirsara-dev/My-node-blog-app
