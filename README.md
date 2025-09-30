@@ -65,8 +65,6 @@ Create a new post using the "New Post" page.
 
 Edit or delete posts using the respective buttons.
 
-(Optional) Add authentication or admin access if implemented.
-
 
 
 Contributing
