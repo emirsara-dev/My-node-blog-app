@@ -57,7 +57,7 @@ npm run dev
 Open your browser at http://localhost:3000 to view the app.
 
 
-Usage:
+## Usage
 
 Navigate to the home page to see all posts.
 
@@ -67,7 +67,7 @@ Edit or delete posts using the respective buttons.
 
 
 
-Contributing
+## Contributing
 
 1. Fork the repository
 
@@ -81,13 +81,13 @@ Contributing
 
 
 
-License
+## License
 
 MIT License
 
 
 
-Contact
+## Contact
 
 Amirhossein Sarabadani — amirhosseinsarabadani@gmail.com
 
